@@ -1,0 +1,16 @@
+--profile=opengl-hq
+hwdec=auto
+#osd message, you can press o to display the osd message
+osd-status-msg="${time-pos/full} / ${length/full} (${percent-pos}%)"
+#makes the player window stay on top of other windows
+ontop=yes
+#always save the current playback position on quit
+save-position-on-quit=yes
+#adjust the initial window size to 50%
+geometry=50%
+#for network play
+cache=8192
+#choose the default subtitle to chinese （选择默认显示的字幕为中文）
+slang=zh,chi
+#for GB2312 GBK BIG5 charset, use enca convert them to utf8 （将非 utf8 编码的字幕转换成 utf8 ，一招解决所有乱码问题，依赖 enca ）
+sub-codepage=enca:zh:utf8

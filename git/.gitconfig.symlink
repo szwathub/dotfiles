@@ -1,0 +1,21 @@
+[user]
+	name = szwathub
+	email = szwathub@gmail.com
+	signingkey = E25A7E015E8E330E
+[github]
+	user = szwathub
+[commit]
+	gpgsign = true
+	template = ~/.git-commit-template
+[gpg]
+	program = gpg
+[alias]
+	tagv = tag -v
+	tags = tag -s
+	ll = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%an, %G?, %cr)%Creset' --abbrev-commit
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = ~/.gitignore
+[init]
+	templatedir = ~/.git-templates

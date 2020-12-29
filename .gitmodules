@@ -1,0 +1,7 @@
+
+[submodule "fish/functions.symlink"]
+	path = fish/functions.symlink
+	url = git@github.com:oh-my-fish/theme-qing.git
+[submodule "vim/.vim.symlink/bundle/Vundle.vim"]
+	path = vim/.vim.symlink/bundle/Vundle.vim
+	url = git@github.com:VundleVim/Vundle.vim.git

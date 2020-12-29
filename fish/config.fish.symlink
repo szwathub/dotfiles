@@ -1,0 +1,5 @@
+set -gx GPG_TTY (tty)
+set -gx LANG en_US.UTF-8
+set PATH $PATH ~/.rvm/bin
+
+rvm default

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FILEHEADER</key>
+	<string>
+//  ___COPYRIGHT___
+//
+//  File name: ___FILENAME___
+//  Author:    ___FULLUSERNAME___ @___USERNAME___
+//  E-mail:    szwathub@gmail.com
+//
+//  Description:
+//
+//  History:
+//      ___DATE___: Created by ___USERNAME___ on ___DATE___
+//</string>
+</dict>
+</plist>

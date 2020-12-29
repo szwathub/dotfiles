@@ -1,0 +1,8 @@
+#!/bin/bash
+
+case "$url" in
+  *@github.com:*  ) email="szwathub@gmail.com"; name="szwathub"; sign=true;;
+  *//github.com/* ) email="szwathub@gmail.com"; name="szwathub"; sign=true;;
+  *@gitee.com:*   ) email="cyrex@funmobig.com"; name="Cyrex"; sign=false;;
+  *//gitee.com/*  ) email="cyrex@funmobig.com"; name="Cyrex"; sign=false;;
+esac

@@ -1,0 +1,28 @@
+#! /usr/bin/env sh
+
+################################################################################
+#                              Dotfiles  Shell Script
+#
+#   Copyright © 2016 ZhiweiSun. All rights reserved.
+#
+#   Author:    ZhiweiSun @szwathub
+#   E-mail:    szwathub@gmail.com
+
+set -e
+
+DOTFILES_PATH=$(cd "$(dirname "$0")";pwd)
+
+. $DOTFILES_PATH/scripts/color.sh
+
+echo "$(user '==>') $(highlight 'Installing dotfiles.')"
+
+echo "$(user '==>') $(highlight 'Initializing submodule(s)')"
+git submodule update --init --recursive
+
+source homebrew/brew.sh
+# source macos/macos.sh
+source xcode/xcode.sh
+source fish/fish.sh
+source gnupg/gnupg.sh
+source mpv/mpv.sh
+source vim/vim.sh
