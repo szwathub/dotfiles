@@ -26,3 +26,4 @@ source fish/fish.sh
 source gnupg/gnupg.sh
 source mpv/mpv.sh
 source vim/vim.sh
+source ssh/ssh.sh
