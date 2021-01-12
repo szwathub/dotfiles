@@ -1,5 +1,4 @@
 set -gx GPG_TTY (tty)
 set -gx LANG en_US.UTF-8
-set PATH $PATH ~/.rvm/bin
-
-rvm default
+set -g fish_user_paths "/usr/local/opt/ruby/bin" $fish_user_paths
+set -g fish_user_paths "/usr/local/lib/ruby/gems/3.0.0/bin" $fish_user_paths
