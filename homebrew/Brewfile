@@ -1,8 +1,6 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'cyrex/tap'
-tap 'oclint/formulae'
 
 brew 'git'
 brew 'git-flow'
@@ -11,8 +9,6 @@ brew 'node'
 brew 'fish'
 brew 'tree'
 brew 'tmux'
-brew 'cartool'
-brew 'oclint'
 brew 'gnupg'
 brew 'pinentry-mac'
 brew 'mpv', args: ['with-bundle', 'with-libaacs', 'with-libarchive', 'with-libbluray', 'with-libcaca', 'with-libdvdnav', 'with-libdvdread']
