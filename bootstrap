@@ -20,7 +20,7 @@ echo "$(user '==>') $(highlight 'Initializing submodule(s)')"
 git submodule update --init --recursive
 
 source homebrew/brew.sh
-# source macos/macos.sh
+source macos/macos.sh
 source xcode/xcode.sh
 source fish/fish.sh
 source gnupg/gnupg.sh
