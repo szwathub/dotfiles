@@ -24,6 +24,6 @@ source macos/macos.sh
 source xcode/xcode.sh
 source fish/fish.sh
 source gnupg/gnupg.sh
-source mpv/mpv.sh
 source vim/vim.sh
 source ssh/ssh.sh
+source git/git.sh

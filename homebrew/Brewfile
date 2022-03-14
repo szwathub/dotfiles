@@ -4,12 +4,8 @@ tap 'homebrew/bundle'
 
 brew 'git'
 brew 'git-flow'
-brew 'git-extras'
 brew 'node'
 brew 'fish'
 brew 'tree'
-brew 'tmux'
 brew 'gnupg'
 brew 'pinentry-mac'
-brew 'mpv', args: ['with-bundle', 'with-libaacs', 'with-libarchive', 'with-libbluray', 'with-libcaca', 'with-libdvdnav', 'with-libdvdread']
-brew 'vim', args: ['with-override-system-vi']
