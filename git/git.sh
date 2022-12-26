@@ -41,6 +41,7 @@ git config --global github.user "${github:-$DEFAULT_GITHUB}"
 mkdir -p ~/.git-templates/hooks
 cp $GIT_PATH/githook/post-checkout ~/.git-templates/hooks/
 git config --global init.templatedir ~/.git-templates
+git config --global core.excludesfile ~/.gitignore
 
 if [[ "$( uname )" == "Darwin" ]]; then
     # can get information by command git credential-osxkeychain
