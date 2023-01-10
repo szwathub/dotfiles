@@ -28,3 +28,5 @@ for file in $SYMLINK ; do
     target="$FISH_CONFIG_PATH/$(basename $file '.symlink')"
     symlink $file $target
 done
+
+curl -L --create-dirs -o ~/.config/fish/functions/rvm.fish https://raw.github.com/lunks/fish-nuggets/master/functions/rvm.fish
