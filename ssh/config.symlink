@@ -9,3 +9,7 @@ Host gitee.com
 HostName gitee.com
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/gitee_rsa
+
+# Fig ssh integration. Keep at the bottom of this file.
+Match all
+  Include ~/.fig/ssh
