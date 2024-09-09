@@ -10,6 +10,8 @@ HostName gitee.com
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/gitee_rsa
 
-# Fig ssh integration. Keep at the bottom of this file.
-Match all
-  Include ~/.fig/ssh
+# gitlab
+Host git.codetrump.com
+HostName git.codetrump.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/gitlab_rsa

@@ -1,5 +1,6 @@
 set -gx GPG_TTY (tty)
 set -gx LANG en_US.UTF-8
+set -gx LLVM_SYMBOLIZER_PATH /opt/homebrew/opt/llvm/bin/llvm-symbolizer
 
 rvm default
 
