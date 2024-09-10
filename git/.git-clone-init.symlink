@@ -1,10 +1,10 @@
 #!/bin/bash
 
 case "$url" in
-  *@github.com:*  ) email="szwathub@gmail.com"; name="szwathub"; sign=true;;
-  *//github.com/* ) email="szwathub@gmail.com"; name="szwathub"; sign=true;;
-  *@gitee.com:*   ) email="cyrex@funmobig.com"; name="Cyrex"; sign=false;;
-  *//gitee.com/*  ) email="cyrex@funmobig.com"; name="Cyrex"; sign=false;;
-  *@git.codetrump.com*   ) email="cyrex@funmobig.com"; name="cyrex"; sign=false;;
-  *//git.codetrump.com/*  ) email="cyrex@funmobig.com"; name="cyrex"; sign=false;;
+  *@github.com:*  ) email="szwathub@gmail.com"; name="szwathub"; igningkey="68A6589FA4898174";;
+  *//github.com/* ) email="szwathub@gmail.com"; name="szwathub"; signingkey="68A6589FA4898174";;
+  *@gitee.com:*   ) email="cyrex@funmobig.com"; name="Cyrex"; signingkey="11B3DB87F07C2B2F";;
+  *//gitee.com/*  ) email="cyrex@funmobig.com"; name="Cyrex"; signingkey="11B3DB87F07C2B2F";;
+  *@git.codetrump.com*   ) email="cyrex@funmobig.com"; name="Cyrex"; signingkey="11B3DB87F07C2B2F";;
+  *//git.codetrump.com/*  ) email="cyrex@funmobig.com"; name="Cyrex"; signingkey="11B3DB87F07C2B2F";;
 esac

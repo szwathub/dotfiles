@@ -34,8 +34,8 @@ cat << INPUT > ~/.git-clone-init
 #!/bin/bash
 
 case "\$url" in
-  *@github.com:*    ) email=""; name=""; sign=true;;
-  *//github.com/*   ) email=""; name=""; sign=true;;
+  *@github.com:*    ) email=""; name=""; signingkey="";;
+  *//github.com/*   ) email=""; name=""; signingkey="";;
 esac
 INPUT
   warn "\nMissing file ~/.git-clone-init. Template created..."
@@ -48,8 +48,8 @@ if [[ -z $name || -z $email ]]; then
   exit 0
 fi
 
-git config --local commit.gpgsign $sign
 git config --local user.email "$email"
 git config --local user.name "$name"
+git config --local user.signingkey "$signingkey"
 
-echo -e "\nIdentity set to $name <$email> gpgsign:$sign"
+echo -e "\nIdentity set to $name <$email> gpg signingkey:$signingkey"
